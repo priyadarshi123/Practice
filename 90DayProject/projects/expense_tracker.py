@@ -72,3 +72,9 @@ print(calculate_total())
 
 print(calculate_average())
 
+def calculate_category_total(category):
+    return sum(expense["amount"] for expense in expenses if expense["category"] == category)
+
+print(calculate_category_total("Food"))
+print(calculate_category_total("Fun"))
+print(calculate_category_total("Drinks"))
