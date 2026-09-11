@@ -1,0 +1,12 @@
+category,amount,description
+Food,25,Lunch
+food,30,Dinner
+ FOOD ,20,Coffee
+Transport,$15,Taxi
+Shopping,200,Clothes
+Food,,Breakfast
+FOOD,25,Lunch
+Fun,130,Movie
+fun,75,Game
+Transport,20,Bus
+shopping,200,Clothes
