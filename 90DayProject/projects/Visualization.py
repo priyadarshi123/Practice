@@ -13,7 +13,8 @@ print(category_expenses)
 category_expenses.plot(kind = "bar")
 
 plt.title("Spending by category")
-plt.xlabel("Category")
+plt.xlabel("Description")
+plt.xticks(rotation=45)
 plt.ylabel("Amount")
 
 plt.savefig("90dayProject/projects/spending_by_category.png")
